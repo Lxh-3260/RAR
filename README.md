@@ -1,1 +1,2 @@
 # RAR
+When applying the latest version of NVMain or RTSim with latest update on gem5, it will occur error during compiling. It is due to that NVMain didn't update since 2017. The latest gem5 is no longer compatible with NVMain. The specific solution is shown in this [issue](https://github.com/SEAL-UCSB/NVmain/issues/4#issuecomment-954666264) commented by seceng-jan.
