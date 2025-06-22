@@ -106,10 +106,10 @@ int main(int argc, char *argv[])
 	}
 
 	trace->SetTraceFile(argv[2]);
-	// DataPlacement();
-	// RewriteAddress();
-	AIS_Dataplacement();
-	AIS_rewriteAddress();
+	DataPlacement();
+	RewriteAddress();
+	// AIS_Dataplacement();
+	// AIS_rewriteAddress();
 	return 0;
 }
 
